@@ -1,0 +1,7 @@
+# Local Codex development material; intentionally not part of the public site.
+AGENTS.md
+tasks/
+source/
+
+# macOS Finder metadata.
+.DS_Store
