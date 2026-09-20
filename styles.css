@@ -53,6 +53,7 @@ code { display:block; overflow-wrap:anywhere; color:#e9eff8; font:400 .91rem/1.6
 .output-list span { padding:11px 16px; color:var(--navy); border:1px solid var(--navy); font:700 .8rem Arial,sans-serif; }
 footer { display:flex; justify-content:space-between; gap:24px; padding-top:30px!important; padding-bottom:30px!important; border-top:1px solid var(--line); color:var(--muted); font-size:.78rem; }
 footer p { margin:0; } footer nav { display:flex; flex-wrap:wrap; gap:16px; } footer a { text-underline-offset:3px; }
+.lumos-link { color:var(--navy); font-family:Arial,sans-serif; font-weight:600; }
 a:focus-visible,button:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }
 @media (max-width:760px) { :root { --page-gutter:20px; } body { font-size:17px; } .site-header { min-height:72px; } .hero,.source-grid,.fallback-section,.principles { grid-template-columns:1fr; } .hero { gap:42px; padding-top:58px; } h1 { font-size:clamp(3rem,15vw,5rem); } .source-section,.principles,.fallback-section { padding-top:64px; padding-bottom:64px; } .fallback-section { gap:25px; } .principles { gap:24px; } footer { display:block; } footer nav { margin-top:16px; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
