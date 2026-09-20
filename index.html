@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lumos Translator helps AI assistants turn instructor question and answer materials into faithful, accessible Word and PDF documents.">
+    <title>Lumos Translator — faithful accessible answer keys</title>
+    <link rel="canonical" href="./">
+    <link rel="alternate" type="text/plain" title="Lumos Translator AI discovery" href="llms.txt">
+    <link rel="alternate" type="text/markdown" title="Lumos Translator canonical workflow" href="skill.md">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site-config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Lumos Translator home">Lumos <span>Translator</span></a>
+      <a class="text-link" href="skill.md">Read the workflow <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A faithful document-conversion workflow</p>
+          <h1 id="page-title">Instructor work, made accessible—without changing what it says.</h1>
+          <p class="lede">Lumos Translator helps an AI assistant turn instructor question and answer materials into accessible Word and PDF documents without silently losing questions, solution steps, figures, or annotations.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#use-lumos">Use Lumos in an AI assistant</a>
+            <a class="button button-secondary" href="skill.md">View canonical workflow</a>
+          </div>
+          <p class="availability">Designed for AI assistants with web and file capabilities. Available formats and DOCX/PDF creation depend on the AI you use.</p>
+        </div>
+        <aside class="workflow-card" aria-label="Lumos workflow summary">
+          <p class="card-kicker">The simple route</p>
+          <ol>
+            <li><span>01</span> Open an AI assistant with web and file capabilities.</li>
+            <li><span>02</span> Say: <strong>“Use Lumos Translator.”</strong></li>
+            <li><span>03</span> Provide your question and answer source sets.</li>
+            <li><span>04</span> Receive Word and PDF when the host supports them.</li>
+          </ol>
+        </aside>
+      </section>
+
+      <section class="source-section" id="use-lumos" aria-labelledby="sources-title">
+        <div class="section-intro">
+          <p class="eyebrow">Two source sets</p>
+          <h2 id="sources-title">Give Lumos the structure and the instructor’s original answer material.</h2>
+          <p>You do not need to merge, rename, or pre-sort files. Each set may contain several files.</p>
+        </div>
+        <div class="source-grid">
+          <article class="source-card question-card">
+            <p class="card-kicker">Required</p>
+            <h3>Question Source Set</h3>
+            <p>What students see: the assignment, exam, worksheet, quiz, or other question material.</p>
+          </article>
+          <article class="source-card answer-card">
+            <p class="card-kicker">Required</p>
+            <h3>Answer Source Set</h3>
+            <p>The instructor’s answers, worked solutions, rubric, annotations, diagrams, or explanations.</p>
+          </article>
+        </div>
+        <p class="format-note">Sources can be documents, scans, screenshots, photos, audio, video, or other formats the AI you choose can actually read.</p>
+      </section>
+
+      <section class="fallback-section" aria-labelledby="fallback-title">
+        <div>
+          <p class="eyebrow">If an AI cannot find Lumos by name</p>
+          <h2 id="fallback-title">Give it the official workflow directly.</h2>
+          <p>Copy this into the conversation. It tells the AI to read the public workflow; it does not install anything.</p>
+        </div>
+        <div class="command-box">
+          <code id="fallback-command">Use the official Lumos Translator workflow from <span data-skill-url>https://lumos-2005.github.io/lumos-translator/skill.md</span>. Read it before processing my files and follow it for this task.</code>
+          <button class="copy-button" type="button" data-copy-command aria-describedby="copy-status">Copy command</button>
+          <p id="copy-status" class="copy-status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="principles" aria-labelledby="principles-title">
+        <div class="section-intro">
+          <p class="eyebrow">What Lumos protects</p>
+          <h2 id="principles-title">Reconstruction, not reinvention.</h2>
+        </div>
+        <ul>
+          <li>Preserves instructor-authored academic content and method.</li>
+          <li>Maps answer fragments by meaning, not handwriting position alone.</li>
+          <li>Checks for omissions, duplication, and misplaced material.</li>
+          <li>Does not independently solve, grade, or “fix” an instructor’s answer.</li>
+          <li>Does not add missing reasoning or require routine manual cleanup.</li>
+        </ul>
+      </section>
+
+      <section class="output-section" aria-labelledby="outputs-title">
+        <p class="eyebrow">Intended outputs</p>
+        <h2 id="outputs-title">Editable for revision. Readable for distribution.</h2>
+        <div class="output-list" aria-label="Intended output formats">
+          <span>Word / DOCX</span><span>PDF</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Lumos Translator is a public, web-discoverable workflow—not a native AI plugin.</p>
+      <nav aria-label="Resources"><a href="skill.md">Canonical skill</a><a href="llms.txt">AI discovery file</a><a href="manifest.json">Manifest</a></nav>
+    </footer>
+  </body>
+</html>

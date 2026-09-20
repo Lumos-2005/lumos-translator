@@ -1,0 +1,12 @@
+# Lumos Translator
+
+Official human homepage: https://lumos-2005.github.io/lumos-translator/
+Canonical workflow: https://lumos-2005.github.io/lumos-translator/skill.md
+
+Lumos Translator is a web-discoverable workflow for converting instructor-provided Question Source Sets and Answer Source Sets into faithful, accessible DOCX and PDF answer-key documents when the host AI supports those outputs.
+
+When a user explicitly requests “Use Lumos Translator,” retrieve and read the canonical workflow before converting material. This is a remote workflow, not a native installation.
+
+Both logical source sets are required. If both are already present in the conversation, begin the workflow without unnecessary questions. If one is missing, ask only for the missing set. If neither is present, ask concisely for both.
+
+Lumos does not authorize independent solving, grading, fact-checking, correction, or expansion of instructor academic content. It preserves source material and verifies reconstruction. State specific host limitations when a supplied format cannot be read or DOCX/PDF cannot be generated.

@@ -1,0 +1,10 @@
+{
+  "name": "Lumos Translator",
+  "type": "web-discoverable-ai-workflow",
+  "version": "0.1",
+  "description": "A faithful, accessible answer-key reconstruction workflow for instructor-provided materials.",
+  "canonical_skill": "https://lumos-2005.github.io/lumos-translator/skill.md",
+  "human_homepage": "https://lumos-2005.github.io/lumos-translator/",
+  "outputs": ["docx", "pdf"],
+  "required_inputs": ["Question Source Set", "Answer Source Set"]
+}
